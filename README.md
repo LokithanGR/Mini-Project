@@ -1,10 +1,3 @@
-# Server - Freelance Portal
-
-Run:
-
-cp .env.example .env
+Client (CRA). Set REACT_APP_API_URL if server isn't at http://localhost:5000/api
 npm install
-npm run dev
-
-API base: /api
-Auth, Projects, Applications, Messages, Ratings
+npm start
